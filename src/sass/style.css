@@ -150,6 +150,12 @@ body .container .down .crypto-price h4 {
   body .container .crypto .crypto-price p {
     margin: 0 10px 0 0;
   }
+  body .container .up {
+    background: linear-gradient(80deg, #282828, rgba(21, 255, 0, 0.0705882353));
+  }
+  body .container .down {
+    background: linear-gradient(80deg, #282828, rgba(255, 0, 0, 0.0784313725));
+  }
 }
 @media (max-width: 940px) {
   body .container {

@@ -177,6 +177,14 @@ body {
           }
         }
       }
+
+      .up {
+        background: linear-gradient(80deg, #282828, #15ff0012 );
+      }
+
+      .down {
+        background: linear-gradient(80deg, #282828, #ff000014);
+      }
     }
   }
 }
