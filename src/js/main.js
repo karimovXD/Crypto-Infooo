@@ -11,7 +11,7 @@ fetch('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Cethereum%2Cte
             container.innerHTML += `
         <div class="crypto ${(cryptoStatic < 0) ? 'down' : 'up'}">
         <div class="crypto-logo">
-            <img src="images/${menu}.webp">
+            <img src="./public/images/${menu}.webp">
         <div class="crypto-name">
             <h2>${menu}</h2>
             <p>USD</p>
