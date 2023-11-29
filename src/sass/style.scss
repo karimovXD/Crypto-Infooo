@@ -1,0 +1,94 @@
+@import 'variable.scss';
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: $black;
+  font-family: $montserrat;
+
+  .container {
+    width: 1440px;
+    height: auto;
+    padding: 0 30px 30px 30px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+
+    .crypto {
+      width: auto;
+      height: auto;
+      padding: 30px;
+      text-align: start;
+      background: rgb(28, 28, 28);
+      border-radius: 0 0 20px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .crypto-logo {
+        img {
+          width: 70px;
+          height: 70px;
+        }
+      }
+
+      .crypto-name {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 0 60px 0;
+
+        h2 {
+          color: beige;
+          font-size: 25px;
+          font-weight: 300;
+        }
+
+        p {
+          font-size: 12px;
+          color: #fff;
+          font-weight: 700;
+        }
+      }
+
+      .crypto-price {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        p {
+          font-size: 19px;
+          font-weight: 500;
+          margin: 0 0 5px 0;
+          color: #fff;
+          font-weight: 300;
+        }
+
+        h4 {
+          font-size: 15px;
+          font-weight: 400;
+        }
+      }
+    }
+
+    .up {
+      background: linear-gradient(180deg, #282828, #15ff0012);
+
+      .crypto-price {
+        h4 {
+          color: rgb(87, 255, 87);
+        }
+      }
+    }
+
+    .down {
+      background: linear-gradient(180deg, #282828, #ff000014);
+
+      .crypto-price {
+        h4 {
+          color: rgb(255, 0, 0);
+        }
+      }
+    }
+  }
+}
