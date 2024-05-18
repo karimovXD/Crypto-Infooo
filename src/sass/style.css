@@ -6,7 +6,7 @@
 * a {
   text-decoration: none;
 }
-* li {
+* li, ol {
   list-style: none;
 }
 
